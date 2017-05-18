@@ -1,0 +1,13 @@
+f=open("sample.csv")
+csv_f = csv.DictReader(f)
+for row in cvs_f:
+    hack=HackData()
+    hack.attribute1= row['satisfaction_level']
+    hack.attribute1= row['average_montly_hours']
+    hack.attribute1= row['last_evaluation']
+    hack.attribute1= row['salary']
+    hack.attribute1= row['promotion_last_5years']
+    hack.attribute1= row['Work_accident']
+    hack.attribute1= row['number_project']
+    hack.left= row['left']
+    hack.save()
